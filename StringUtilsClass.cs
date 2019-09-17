@@ -6,11 +6,12 @@ using NUnit.Framework.Internal;
 namespace ThirtyDaysOfTDD.UnitTests
 {
     [TestFixture]
+
+
     public class StringUtilsTest
     {
-        [SetUp]
         private StringUtils _stringUtils;
-
+        [SetUp]
         public void SetupStringUtilsTests()
         {
             _stringUtils = new StringUtils();
